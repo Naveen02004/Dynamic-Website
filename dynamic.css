@@ -1,0 +1,28 @@
+.body{
+    background-color: black;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    transition: 0.2s;
+}
+
+a:hover{
+    color:aqua;
+    border-bottom: 3px solid aqua;
+    padding-bottom: 10px;
+    
+}
